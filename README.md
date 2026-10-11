@@ -12,7 +12,7 @@ Features:
 - Sortable, searchable table of every county: rate, 2018→2022 change, and gap vs. statewide
 - "Biggest opportunities": top 15 county + age-group pairs below the statewide rate,
   ranked by registered × (1 − rate)
-- One-click 2-page PDF report
+- One-click 2-page PDF report ([example](docs/example-report.pdf))
 
 ## Quick start
 
@@ -37,6 +37,8 @@ the January 2021 runoff, so it has no 2022 file. The 2022 numbers come from the 
 public Data Hub dashboard. `scripts/fetch_2022_qlik.mjs` asks that dashboard for
 **grouped totals only** (county × age group: registered voters and ballots accepted),
 using the dashboard's own measure definitions. It never downloads individual rows.
+The result is saved in `data/raw/2022/`, so the app keeps working even if the SoS changes or
+removes that dashboard later. You only need the script again to refresh or add an election.
 
 ### Definitions and choices
 
