@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Georgia County Turnout Analyzer</title>
+  <meta name="description" content="Nonpartisan view of midterm general-election turnout by age group in Georgia's 159 counties, from aggregate public data." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%230b8a74'/><rect x='3' y='8' width='2' height='5' fill='white'/><rect x='7' y='5' width='2' height='8' fill='white'/><rect x='11' y='3' width='2' height='10' fill='white'/></svg>" />
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <div id="sample-banner" class="sample-banner" hidden role="status">
+    <strong>SAMPLE DATA</strong> — these numbers are fake placeholders. Run <code>python3 scripts/clean_data.py</code> with real files in <code>data/raw/</code>.
+  </div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Georgia County Turnout Analyzer</h1>
+      <p class="lede">How often registered voters in each age group cast a ballot in Georgia's governor-year (midterm) general elections, county by county.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Filters">
+      <label>Age group
+        <select id="age-select"></select>
+      </label>
+      <label>Election
+        <select id="year-select"></select>
+      </label>
+      <button id="export-btn" class="btn" type="button">Export report (PDF)</button>
+    </section>
+
+    <section class="kpis" id="kpis" aria-label="Statewide summary"></section>
+
+    <div class="grid">
+      <section class="card map-card">
+        <div class="card-head">
+          <h2 id="map-title">Turnout rate by county</h2>
+          <p class="hint">Tap or click a county for its age breakdown.</p>
+        </div>
+        <div id="map" class="map"></div>
+        <div id="map-legend" class="legend"></div>
+      </section>
+
+      <section class="card county-card">
+        <div class="card-head">
+          <h2 id="county-title">Statewide</h2>
+          <p class="hint" id="county-sub">Select a county on the map or in the table.</p>
+        </div>
+        <div class="chart-box"><canvas id="county-chart" aria-label="Turnout by age group, county versus statewide" role="img"></canvas></div>
+        <div id="county-legend" class="legend chart-legend"></div>
+        <p class="note" id="estimate-note" hidden>The 2026 figure is the simple average of the 2018 and 2022 rates. It is <strong>not a prediction model</strong> and does not account for new registrations, candidates, or events.</p>
+      </section>
+    </div>
+
+    <section class="card">
+      <div class="card-head">
+        <h2 id="opp-title">Biggest opportunities</h2>
+        <p class="hint">County and age-group pairs with turnout below the statewide rate for that group, ranked by registered voters who did not vote (registered × (1 − rate)). Larger counties rank higher because they have more voters.</p>
+      </div>
+      <ol id="opportunities" class="opp-list"></ol>
+    </section>
+
+    <section class="card">
+      <div class="card-head row">
+        <h2 id="table-title">All counties</h2>
+        <input id="table-search" type="search" placeholder="Filter counties…" aria-label="Filter counties" />
+      </div>
+      <div class="table-wrap">
+        <table id="county-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note">Change = 2022 rate minus 2018 rate. Gap = county rate minus statewide rate for the same age group and election. Both in percentage points (pts).</p>
+    </section>
+
+    <section class="card method">
+      <h2>Methodology</h2>
+      <ul>
+        <li><strong>Turnout rate</strong> = ballots cast ÷ registered voters (active + inactive) for each county, age group, and election.</li>
+        <li><strong>Age groups</strong> combine the Secretary of State's 5-year brackets: 25-29 + 30-34 → 25-34, and so on; 65 and older → 65+. Age comes from the voter file's birth year.</li>
+        <li><strong>2018</strong>: SoS "Voter Turnout by Demographics" report (Nov 6, 2018 general). <strong>2022</strong>: SoS Election Data Hub, Nov 8, 2022 general (voter base as of the Oct 11, 2022 registration deadline). 6,115 ballots in 2022 (0.15%) had no matching age record and are excluded from age-group figures.</li>
+        <li>Registered counts include inactive voters, so rates are lower than "% of active voters" figures some SoS dashboards show.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Data sources:</strong> <span id="footer-sources">Georgia Secretary of State — Voter Turnout by Demographics (2018); Election Data Hub, Turnout &amp; Demographics (2022). County boundaries: U.S. Census Bureau cartographic boundary files (via us-atlas).</span></p>
+      <p><strong>Last updated:</strong> <span id="footer-updated">—</span></p>
+      <p>This tool is nonpartisan. It uses only aggregate, publicly available data — no individual voter records.</p>
+    </div>
+  </footer>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

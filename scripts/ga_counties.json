@@ -1,0 +1,797 @@
+[
+ {
+  "code": "001",
+  "fips": "13001",
+  "name": "Appling"
+ },
+ {
+  "code": "002",
+  "fips": "13003",
+  "name": "Atkinson"
+ },
+ {
+  "code": "003",
+  "fips": "13005",
+  "name": "Bacon"
+ },
+ {
+  "code": "004",
+  "fips": "13007",
+  "name": "Baker"
+ },
+ {
+  "code": "005",
+  "fips": "13009",
+  "name": "Baldwin"
+ },
+ {
+  "code": "006",
+  "fips": "13011",
+  "name": "Banks"
+ },
+ {
+  "code": "007",
+  "fips": "13013",
+  "name": "Barrow"
+ },
+ {
+  "code": "008",
+  "fips": "13015",
+  "name": "Bartow"
+ },
+ {
+  "code": "009",
+  "fips": "13017",
+  "name": "Ben Hill"
+ },
+ {
+  "code": "010",
+  "fips": "13019",
+  "name": "Berrien"
+ },
+ {
+  "code": "011",
+  "fips": "13021",
+  "name": "Bibb"
+ },
+ {
+  "code": "012",
+  "fips": "13023",
+  "name": "Bleckley"
+ },
+ {
+  "code": "013",
+  "fips": "13025",
+  "name": "Brantley"
+ },
+ {
+  "code": "014",
+  "fips": "13027",
+  "name": "Brooks"
+ },
+ {
+  "code": "015",
+  "fips": "13029",
+  "name": "Bryan"
+ },
+ {
+  "code": "016",
+  "fips": "13031",
+  "name": "Bulloch"
+ },
+ {
+  "code": "017",
+  "fips": "13033",
+  "name": "Burke"
+ },
+ {
+  "code": "018",
+  "fips": "13035",
+  "name": "Butts"
+ },
+ {
+  "code": "019",
+  "fips": "13037",
+  "name": "Calhoun"
+ },
+ {
+  "code": "020",
+  "fips": "13039",
+  "name": "Camden"
+ },
+ {
+  "code": "021",
+  "fips": "13043",
+  "name": "Candler"
+ },
+ {
+  "code": "022",
+  "fips": "13045",
+  "name": "Carroll"
+ },
+ {
+  "code": "023",
+  "fips": "13047",
+  "name": "Catoosa"
+ },
+ {
+  "code": "024",
+  "fips": "13049",
+  "name": "Charlton"
+ },
+ {
+  "code": "025",
+  "fips": "13051",
+  "name": "Chatham"
+ },
+ {
+  "code": "026",
+  "fips": "13053",
+  "name": "Chattahoochee"
+ },
+ {
+  "code": "027",
+  "fips": "13055",
+  "name": "Chattooga"
+ },
+ {
+  "code": "028",
+  "fips": "13057",
+  "name": "Cherokee"
+ },
+ {
+  "code": "029",
+  "fips": "13059",
+  "name": "Clarke"
+ },
+ {
+  "code": "030",
+  "fips": "13061",
+  "name": "Clay"
+ },
+ {
+  "code": "031",
+  "fips": "13063",
+  "name": "Clayton"
+ },
+ {
+  "code": "032",
+  "fips": "13065",
+  "name": "Clinch"
+ },
+ {
+  "code": "033",
+  "fips": "13067",
+  "name": "Cobb"
+ },
+ {
+  "code": "034",
+  "fips": "13069",
+  "name": "Coffee"
+ },
+ {
+  "code": "035",
+  "fips": "13071",
+  "name": "Colquitt"
+ },
+ {
+  "code": "036",
+  "fips": "13073",
+  "name": "Columbia"
+ },
+ {
+  "code": "037",
+  "fips": "13075",
+  "name": "Cook"
+ },
+ {
+  "code": "038",
+  "fips": "13077",
+  "name": "Coweta"
+ },
+ {
+  "code": "039",
+  "fips": "13079",
+  "name": "Crawford"
+ },
+ {
+  "code": "040",
+  "fips": "13081",
+  "name": "Crisp"
+ },
+ {
+  "code": "041",
+  "fips": "13083",
+  "name": "Dade"
+ },
+ {
+  "code": "042",
+  "fips": "13085",
+  "name": "Dawson"
+ },
+ {
+  "code": "043",
+  "fips": "13087",
+  "name": "Decatur"
+ },
+ {
+  "code": "044",
+  "fips": "13089",
+  "name": "DeKalb"
+ },
+ {
+  "code": "045",
+  "fips": "13091",
+  "name": "Dodge"
+ },
+ {
+  "code": "046",
+  "fips": "13093",
+  "name": "Dooly"
+ },
+ {
+  "code": "047",
+  "fips": "13095",
+  "name": "Dougherty"
+ },
+ {
+  "code": "048",
+  "fips": "13097",
+  "name": "Douglas"
+ },
+ {
+  "code": "049",
+  "fips": "13099",
+  "name": "Early"
+ },
+ {
+  "code": "050",
+  "fips": "13101",
+  "name": "Echols"
+ },
+ {
+  "code": "051",
+  "fips": "13103",
+  "name": "Effingham"
+ },
+ {
+  "code": "052",
+  "fips": "13105",
+  "name": "Elbert"
+ },
+ {
+  "code": "053",
+  "fips": "13107",
+  "name": "Emanuel"
+ },
+ {
+  "code": "054",
+  "fips": "13109",
+  "name": "Evans"
+ },
+ {
+  "code": "055",
+  "fips": "13111",
+  "name": "Fannin"
+ },
+ {
+  "code": "056",
+  "fips": "13113",
+  "name": "Fayette"
+ },
+ {
+  "code": "057",
+  "fips": "13115",
+  "name": "Floyd"
+ },
+ {
+  "code": "058",
+  "fips": "13117",
+  "name": "Forsyth"
+ },
+ {
+  "code": "059",
+  "fips": "13119",
+  "name": "Franklin"
+ },
+ {
+  "code": "060",
+  "fips": "13121",
+  "name": "Fulton"
+ },
+ {
+  "code": "061",
+  "fips": "13123",
+  "name": "Gilmer"
+ },
+ {
+  "code": "062",
+  "fips": "13125",
+  "name": "Glascock"
+ },
+ {
+  "code": "063",
+  "fips": "13127",
+  "name": "Glynn"
+ },
+ {
+  "code": "064",
+  "fips": "13129",
+  "name": "Gordon"
+ },
+ {
+  "code": "065",
+  "fips": "13131",
+  "name": "Grady"
+ },
+ {
+  "code": "066",
+  "fips": "13133",
+  "name": "Greene"
+ },
+ {
+  "code": "067",
+  "fips": "13135",
+  "name": "Gwinnett"
+ },
+ {
+  "code": "068",
+  "fips": "13137",
+  "name": "Habersham"
+ },
+ {
+  "code": "069",
+  "fips": "13139",
+  "name": "Hall"
+ },
+ {
+  "code": "070",
+  "fips": "13141",
+  "name": "Hancock"
+ },
+ {
+  "code": "071",
+  "fips": "13143",
+  "name": "Haralson"
+ },
+ {
+  "code": "072",
+  "fips": "13145",
+  "name": "Harris"
+ },
+ {
+  "code": "073",
+  "fips": "13147",
+  "name": "Hart"
+ },
+ {
+  "code": "074",
+  "fips": "13149",
+  "name": "Heard"
+ },
+ {
+  "code": "075",
+  "fips": "13151",
+  "name": "Henry"
+ },
+ {
+  "code": "076",
+  "fips": "13153",
+  "name": "Houston"
+ },
+ {
+  "code": "077",
+  "fips": "13155",
+  "name": "Irwin"
+ },
+ {
+  "code": "078",
+  "fips": "13157",
+  "name": "Jackson"
+ },
+ {
+  "code": "079",
+  "fips": "13159",
+  "name": "Jasper"
+ },
+ {
+  "code": "080",
+  "fips": "13161",
+  "name": "Jeff Davis"
+ },
+ {
+  "code": "081",
+  "fips": "13163",
+  "name": "Jefferson"
+ },
+ {
+  "code": "082",
+  "fips": "13165",
+  "name": "Jenkins"
+ },
+ {
+  "code": "083",
+  "fips": "13167",
+  "name": "Johnson"
+ },
+ {
+  "code": "084",
+  "fips": "13169",
+  "name": "Jones"
+ },
+ {
+  "code": "085",
+  "fips": "13171",
+  "name": "Lamar"
+ },
+ {
+  "code": "086",
+  "fips": "13173",
+  "name": "Lanier"
+ },
+ {
+  "code": "087",
+  "fips": "13175",
+  "name": "Laurens"
+ },
+ {
+  "code": "088",
+  "fips": "13177",
+  "name": "Lee"
+ },
+ {
+  "code": "089",
+  "fips": "13179",
+  "name": "Liberty"
+ },
+ {
+  "code": "090",
+  "fips": "13181",
+  "name": "Lincoln"
+ },
+ {
+  "code": "091",
+  "fips": "13183",
+  "name": "Long"
+ },
+ {
+  "code": "092",
+  "fips": "13185",
+  "name": "Lowndes"
+ },
+ {
+  "code": "093",
+  "fips": "13187",
+  "name": "Lumpkin"
+ },
+ {
+  "code": "094",
+  "fips": "13193",
+  "name": "Macon"
+ },
+ {
+  "code": "095",
+  "fips": "13195",
+  "name": "Madison"
+ },
+ {
+  "code": "096",
+  "fips": "13197",
+  "name": "Marion"
+ },
+ {
+  "code": "097",
+  "fips": "13189",
+  "name": "McDuffie"
+ },
+ {
+  "code": "098",
+  "fips": "13191",
+  "name": "McIntosh"
+ },
+ {
+  "code": "099",
+  "fips": "13199",
+  "name": "Meriwether"
+ },
+ {
+  "code": "100",
+  "fips": "13201",
+  "name": "Miller"
+ },
+ {
+  "code": "101",
+  "fips": "13205",
+  "name": "Mitchell"
+ },
+ {
+  "code": "102",
+  "fips": "13207",
+  "name": "Monroe"
+ },
+ {
+  "code": "103",
+  "fips": "13209",
+  "name": "Montgomery"
+ },
+ {
+  "code": "104",
+  "fips": "13211",
+  "name": "Morgan"
+ },
+ {
+  "code": "105",
+  "fips": "13213",
+  "name": "Murray"
+ },
+ {
+  "code": "106",
+  "fips": "13215",
+  "name": "Muscogee"
+ },
+ {
+  "code": "107",
+  "fips": "13217",
+  "name": "Newton"
+ },
+ {
+  "code": "108",
+  "fips": "13219",
+  "name": "Oconee"
+ },
+ {
+  "code": "109",
+  "fips": "13221",
+  "name": "Oglethorpe"
+ },
+ {
+  "code": "110",
+  "fips": "13223",
+  "name": "Paulding"
+ },
+ {
+  "code": "111",
+  "fips": "13225",
+  "name": "Peach"
+ },
+ {
+  "code": "112",
+  "fips": "13227",
+  "name": "Pickens"
+ },
+ {
+  "code": "113",
+  "fips": "13229",
+  "name": "Pierce"
+ },
+ {
+  "code": "114",
+  "fips": "13231",
+  "name": "Pike"
+ },
+ {
+  "code": "115",
+  "fips": "13233",
+  "name": "Polk"
+ },
+ {
+  "code": "116",
+  "fips": "13235",
+  "name": "Pulaski"
+ },
+ {
+  "code": "117",
+  "fips": "13237",
+  "name": "Putnam"
+ },
+ {
+  "code": "118",
+  "fips": "13239",
+  "name": "Quitman"
+ },
+ {
+  "code": "119",
+  "fips": "13241",
+  "name": "Rabun"
+ },
+ {
+  "code": "120",
+  "fips": "13243",
+  "name": "Randolph"
+ },
+ {
+  "code": "121",
+  "fips": "13245",
+  "name": "Richmond"
+ },
+ {
+  "code": "122",
+  "fips": "13247",
+  "name": "Rockdale"
+ },
+ {
+  "code": "123",
+  "fips": "13249",
+  "name": "Schley"
+ },
+ {
+  "code": "124",
+  "fips": "13251",
+  "name": "Screven"
+ },
+ {
+  "code": "125",
+  "fips": "13253",
+  "name": "Seminole"
+ },
+ {
+  "code": "126",
+  "fips": "13255",
+  "name": "Spalding"
+ },
+ {
+  "code": "127",
+  "fips": "13257",
+  "name": "Stephens"
+ },
+ {
+  "code": "128",
+  "fips": "13259",
+  "name": "Stewart"
+ },
+ {
+  "code": "129",
+  "fips": "13261",
+  "name": "Sumter"
+ },
+ {
+  "code": "130",
+  "fips": "13263",
+  "name": "Talbot"
+ },
+ {
+  "code": "131",
+  "fips": "13265",
+  "name": "Taliaferro"
+ },
+ {
+  "code": "132",
+  "fips": "13267",
+  "name": "Tattnall"
+ },
+ {
+  "code": "133",
+  "fips": "13269",
+  "name": "Taylor"
+ },
+ {
+  "code": "134",
+  "fips": "13271",
+  "name": "Telfair"
+ },
+ {
+  "code": "135",
+  "fips": "13273",
+  "name": "Terrell"
+ },
+ {
+  "code": "136",
+  "fips": "13275",
+  "name": "Thomas"
+ },
+ {
+  "code": "137",
+  "fips": "13277",
+  "name": "Tift"
+ },
+ {
+  "code": "138",
+  "fips": "13279",
+  "name": "Toombs"
+ },
+ {
+  "code": "139",
+  "fips": "13281",
+  "name": "Towns"
+ },
+ {
+  "code": "140",
+  "fips": "13283",
+  "name": "Treutlen"
+ },
+ {
+  "code": "141",
+  "fips": "13285",
+  "name": "Troup"
+ },
+ {
+  "code": "142",
+  "fips": "13287",
+  "name": "Turner"
+ },
+ {
+  "code": "143",
+  "fips": "13289",
+  "name": "Twiggs"
+ },
+ {
+  "code": "144",
+  "fips": "13291",
+  "name": "Union"
+ },
+ {
+  "code": "145",
+  "fips": "13293",
+  "name": "Upson"
+ },
+ {
+  "code": "146",
+  "fips": "13295",
+  "name": "Walker"
+ },
+ {
+  "code": "147",
+  "fips": "13297",
+  "name": "Walton"
+ },
+ {
+  "code": "148",
+  "fips": "13299",
+  "name": "Ware"
+ },
+ {
+  "code": "149",
+  "fips": "13301",
+  "name": "Warren"
+ },
+ {
+  "code": "150",
+  "fips": "13303",
+  "name": "Washington"
+ },
+ {
+  "code": "151",
+  "fips": "13305",
+  "name": "Wayne"
+ },
+ {
+  "code": "152",
+  "fips": "13307",
+  "name": "Webster"
+ },
+ {
+  "code": "153",
+  "fips": "13309",
+  "name": "Wheeler"
+ },
+ {
+  "code": "154",
+  "fips": "13311",
+  "name": "White"
+ },
+ {
+  "code": "155",
+  "fips": "13313",
+  "name": "Whitfield"
+ },
+ {
+  "code": "156",
+  "fips": "13315",
+  "name": "Wilcox"
+ },
+ {
+  "code": "157",
+  "fips": "13317",
+  "name": "Wilkes"
+ },
+ {
+  "code": "158",
+  "fips": "13319",
+  "name": "Wilkinson"
+ },
+ {
+  "code": "159",
+  "fips": "13321",
+  "name": "Worth"
+ }
+]

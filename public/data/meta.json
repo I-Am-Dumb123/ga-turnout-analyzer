@@ -1,0 +1,23 @@
+{
+  "is_sample": false,
+  "generated": "2026-10-11",
+  "years": [
+    2018,
+    2022
+  ],
+  "sources": [
+    {
+      "year": 2018,
+      "file": "November 2018 Active, Inactive Voters by Race, Gender_Age.zip",
+      "publisher": "Georgia Secretary of State \u2013 Voter Turnout by Demographics",
+      "registered_definition": "active + inactive"
+    },
+    {
+      "year": 2022,
+      "file": "ga_2022_general_county_age.csv",
+      "publisher": "Georgia Secretary of State \u2013 Election Data Hub (Turnout & Demographics)",
+      "registered_definition": "active + inactive"
+    }
+  ],
+  "problems": []
+}
