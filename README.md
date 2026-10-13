@@ -1,5 +1,7 @@
 # Georgia County Turnout Analyzer
 
+**Live site: https://amogh-nootigattu.github.io/ga-turnout-analyzer/**
+
 A nonpartisan static web app showing how likely each age group is to vote in each of
 Georgia's 159 counties in governor-year (midterm) general elections, 2018 and 2022.
 
